@@ -12,6 +12,7 @@
 * [Steps](#steps)
 * [Results](#results)
 * [Classification Report and Confusion Matrix](#classification-report-and-confusion-matrix)
+* [Result on Split Dataset](#result-on-split-dataset)
 
 
 ## General Info:
