@@ -11,6 +11,7 @@
 * [Improvement Possibilities](#improvement-possibilities)
 * [Steps](#steps)
 * [Results](#results)
+* [Classification Report and Confusion Matrix](#classification-report-and-confusion-matrix)
 
 
 ## General Info:
