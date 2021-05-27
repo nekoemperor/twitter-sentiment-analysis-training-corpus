@@ -7,6 +7,8 @@
 * [Technologies](#technologies)
 * [Dependencies](#dependencies)
 * [How To Use](#how-to-use)
+* [Results](#results)
+* [Ideas and Discussions](#ideas-and-discussions)
 
 ## General Info:
 This project is for Python/DS Coding Task.
@@ -51,3 +53,7 @@ see requirements.txt
 ![log-log plot of words frequency with positive labels](./results/graph10.png)
 ![Top-10 words more frequent with negative labels](./results/graph11.png)
 ![log-log plot of words frequency with negative labels](./results/graph12.png)
+
+## Ideas and Discussions
+* Multinomial Naive Bayes classification algorithm tends to be a baseline solution for sentiment analysis task. The basic idea of Naive Bayes technique is to find the probabilities of classes assigned to texts by using the joint probabilities of words and classes.
+
