@@ -54,7 +54,7 @@ see requirements.txt
 * Data Pre-Processing 3: Feature Extraction (Vectorization - Bag of Words)
 * Train Test Split: Labeled dataset is splitted 70:30
 * Creating Pipeline: to manage the 3 preprocessing steps above in one step
-* Model Evaluation: See the [Results](#results)
+* Model Evaluation: See the [Classification Report and Confusion Matrix](#classification-report-and-confusion-matrix)
 * Evaluation on split testdataset
 * Test on Dataset.txt (no label)
 
