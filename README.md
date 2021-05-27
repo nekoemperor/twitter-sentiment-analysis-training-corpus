@@ -55,7 +55,7 @@ see requirements.txt
 * Train Test Split: Labeled dataset is splitted 70:30
 * Creating Pipeline: to manage the 3 preprocessing steps above in one step
 * Model Evaluation: See the [Classification Report and Confusion Matrix](#classification-report-and-confusion-matrix)
-* Evaluation on split testdataset
+* Evaluation on split testdataset [Evaluation on Split Dataset](#evaluation-on-split-dataset)
 * Test on Dataset.txt (no label)
 
 ## Results
@@ -82,4 +82,7 @@ see requirements.txt
 ![Classification Report](./results/class_report.png)
 ![Confusion Matrx](./results/cf_matrix.png)
 ![Confusion Matrx](./results/cf_matrix_p.png)
+
+#### Evaluation on Split Dataset
+![split dataset](./results/split_dataset.png)
 
