@@ -80,4 +80,5 @@ see requirements.txt
 #### Classification Report and Confusion Matrix
 ![Classification Report](./results/class_report.png)
 ![Confusion Matrx](./results/cf_matrix.png)
+![Confusion Matrx](./results/cf_matrix_p.png)
 
