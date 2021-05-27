@@ -34,6 +34,17 @@ see requirements.txt
 * Clone this repository
 * Run the .ipynb file with jupyter notebook
 
+## Ideas and Discussions
+* Multinomial Naive Bayes classification algorithm tends to be a baseline solution for sentiment analysis task. The basic idea of Naive Bayes technique is to find the probabilities of classes assigned to texts by using the joint probabilities of words and classes. When we have discrete data (e.g. tweets ratings/labels 1 for positive and 0 for negative as each rating will have certain frequency to represent). In text classification we have the count of each word to predict the class or label. If the words can be represented in terms of their occurrences (frequency count) then use multinomial event model.
+
+## What can be done to improve the results
+* Use Stemming to change each words into their root word.
+* Use Cross-Validation (GridSearch CV) to check if you have used a model with too much capacity (overfitting); This allows us to easily test out different hyperparameter configurations using for example the KFold strategy to split the model into random parts to find out if it’s generalizing well or if it’s overfitting.
+
+## Steps
+* Importing Libraries
+* 
+
 ## Results
 ### Words more frequent with positive and negative labels using Zipf Law
 #### Before cleaning the data
@@ -54,6 +65,7 @@ see requirements.txt
 ![Top-10 words more frequent with negative labels](./results/graph11.png)
 ![log-log plot of words frequency with negative labels](./results/graph12.png)
 
-## Ideas and Discussions
-* Multinomial Naive Bayes classification algorithm tends to be a baseline solution for sentiment analysis task. The basic idea of Naive Bayes technique is to find the probabilities of classes assigned to texts by using the joint probabilities of words and classes.
+#### Classification Report and Confusion Matrix
+![Classification Report](./results/class_report.png)
+![Confusion Matrx](./results/cf_matrix.png)
 
