@@ -31,3 +31,23 @@ see requirements.txt
 ## How To Use:
 * Clone this repository
 * Run the .ipynb file with jupyter notebook
+
+## Results
+### Words more frequent with positive and negative labels using Zipf Law
+#### Before cleaning the data
+![Top-10 words more frequent with positive labels](./results/graph1.png)
+![log-log plot of words frequency with positive labels](./results/graph2.png)
+![Top-10 words more frequent with negative labels](./results/graph3.png)
+![log-log plot of words frequency with negative labels](./results/graph4.png)
+
+#### After cleaning the data
+![Top-10 words more frequent with positive labels](./results/graph5.png)
+![log-log plot of words frequency with positive labels](./results/graph6.png)
+![Top-10 words more frequent with negative labels](./results/graph7.png)
+![log-log plot of words frequency with negative labels](./results/graph8.png)
+
+#### After cleaning the data and using stopwords
+![Top-10 words more frequent with positive labels](./results/graph9.png)
+![log-log plot of words frequency with positive labels](./results/graph10.png)
+![Top-10 words more frequent with negative labels](./results/graph11.png)
+![log-log plot of words frequency with negative labels](./results/graph12.png)
